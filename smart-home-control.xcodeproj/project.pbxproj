@@ -6,17 +6,108 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F468731D2FDEA479005002EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873192FDEA479005002EB /* ContentView.swift */; };
+		F468731F2FDEA479005002EB /* smart_home_controlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468731B2FDEA479005002EB /* smart_home_controlApp.swift */; };
+		F46873202FDEA479005002EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46873182FDEA479005002EB /* Assets.xcassets */; };
+		F46873472FE03682005002EB /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873462FE03682005002EB /* Device.swift */; };
+		F46873492FE0368B005002EB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873482FE0368B005002EB /* Room.swift */; };
+		F468734B2FE03694005002EB /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468734A2FE03694005002EB /* Scene.swift */; };
+		F468734D2FE036A1005002EB /* SceneAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468734C2FE036A1005002EB /* SceneAction.swift */; };
+		F468734F2FE036AB005002EB /* Automation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468734E2FE036AB005002EB /* Automation.swift */; };
+		F46873512FE036B7005002EB /* EnergyReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873502FE036B7005002EB /* EnergyReading.swift */; };
+		F46873532FE036C2005002EB /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873522FE036C2005002EB /* DeviceType.swift */; };
+		F46873552FE036D5005002EB /* TriggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873542FE036D5005002EB /* TriggerType.swift */; };
+		F46873572FE03748005002EB /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873562FE03748005002EB /* MainTabView.swift */; };
+		F46873592FE03761005002EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873582FE03761005002EB /* HomeView.swift */; };
+		F468735B2FE0376C005002EB /* Home-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468735A2FE0376C005002EB /* Home-ViewModel.swift */; };
+		F468735E2FE03792005002EB /* StatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468735D2FE03792005002EB /* StatCardView.swift */; };
+		F46873602FE037A7005002EB /* StatCardsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468735F2FE037A7005002EB /* StatCardsGrid.swift */; };
+		F46873622FE037B0005002EB /* DeviceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873612FE037B0005002EB /* DeviceCardView.swift */; };
+		F46873642FE037BE005002EB /* DeviceCardGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873632FE037BE005002EB /* DeviceCardGrid.swift */; };
+		F46873682FE037FC005002EB /* EnergyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873672FE037FC005002EB /* EnergyChartView.swift */; };
+		F468736B2FE0381D005002EB /* DevicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468736A2FE0381D005002EB /* DevicesListView.swift */; };
+		F468736D2FE03828005002EB /* DevicesList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468736C2FE03828005002EB /* DevicesList-ViewModel.swift */; };
+		F46873702FE0385C005002EB /* DeviceCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468736F2FE0385C005002EB /* DeviceCreateView.swift */; };
+		F46873722FE03866005002EB /* DeviceCreate-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873712FE03866005002EB /* DeviceCreate-ViewModel.swift */; };
+		F46873742FE0423B005002EB /* DeviceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873732FE0423B005002EB /* DeviceDetailsView.swift */; };
+		F46873772FE04298005002EB /* RoomsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873762FE04298005002EB /* RoomsListView.swift */; };
+		F46873792FE042A3005002EB /* RoomsList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873782FE042A3005002EB /* RoomsList-ViewModel.swift */; };
+		F468737C2FE042BF005002EB /* RoomCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468737B2FE042BF005002EB /* RoomCreateView.swift */; };
+		F468737E2FE042CB005002EB /* RoomCreate-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468737D2FE042CB005002EB /* RoomCreate-ViewModel.swift */; };
+		F46873802FE042DC005002EB /* RoomDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468737F2FE042DC005002EB /* RoomDetailsView.swift */; };
+		F46873832FE042F6005002EB /* ScenesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873822FE042F6005002EB /* ScenesListView.swift */; };
+		F46873852FE04301005002EB /* ScenesList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873842FE04301005002EB /* ScenesList-ViewModel.swift */; };
+		F468738A2FE04323005002EB /* SceneCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873892FE04323005002EB /* SceneCreateView.swift */; };
+		F468738C2FE04330005002EB /* SceneCreate-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468738B2FE04330005002EB /* SceneCreate-ViewModel.swift */; };
+		F468738F2FE04357005002EB /* AutomationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468738E2FE04357005002EB /* AutomationsListView.swift */; };
+		F46873912FE04362005002EB /* AutomationsList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873902FE04362005002EB /* AutomationsList-ViewModel.swift */; };
+		F46873942FE04380005002EB /* AutomationCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873932FE04380005002EB /* AutomationCreateView.swift */; };
+		F46873962FE0438E005002EB /* AutomationCreate-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873952FE0438E005002EB /* AutomationCreate-ViewModel.swift */; };
+		F46873982FE043C4005002EB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873972FE043C4005002EB /* ProfileView.swift */; };
+		F468739A2FE043D9005002EB /* DeviceToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873992FE043D9005002EB /* DeviceToggle.swift */; };
+		F468739C2FE043EA005002EB /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468739B2FE043EA005002EB /* EmptyStateView.swift */; };
+		F468739E2FE043FB005002EB /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468739D2FE043FB005002EB /* StatusBadge.swift */; };
+		F46873A02FE0443D005002EB /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468739F2FE0443D005002EB /* SectionHeader.swift */; };
+		F46873A22FE0444C005002EB /* IconPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873A12FE0444C005002EB /* IconPicker.swift */; };
+		F46873A42FE04465005002EB /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873A32FE04465005002EB /* SampleData.swift */; };
+		F46873A62FE04477005002EB /* ModelContainerSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873A52FE04477005002EB /* ModelContainerSetup.swift */; };
+		F46873A82FE04497005002EB /* PreviewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873A72FE04497005002EB /* PreviewHelpers.swift */; };
+		F46873AA2FE044AD005002EB /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873A92FE044AD005002EB /* Date+Formatting.swift */; };
+		F46873AC2FE044B8005002EB /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873AB2FE044B8005002EB /* Color+Theme.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F46873082FDD92B4005002EB /* smart-home-control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smart-home-control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46873182FDEA479005002EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46873192FDEA479005002EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F468731B2FDEA479005002EB /* smart_home_controlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smart_home_controlApp.swift; sourceTree = "<group>"; };
+		F46873462FE03682005002EB /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		F46873482FE0368B005002EB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		F468734A2FE03694005002EB /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		F468734C2FE036A1005002EB /* SceneAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneAction.swift; sourceTree = "<group>"; };
+		F468734E2FE036AB005002EB /* Automation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automation.swift; sourceTree = "<group>"; };
+		F46873502FE036B7005002EB /* EnergyReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyReading.swift; sourceTree = "<group>"; };
+		F46873522FE036C2005002EB /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		F46873542FE036D5005002EB /* TriggerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerType.swift; sourceTree = "<group>"; };
+		F46873562FE03748005002EB /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		F46873582FE03761005002EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F468735A2FE0376C005002EB /* Home-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home-ViewModel.swift"; sourceTree = "<group>"; };
+		F468735D2FE03792005002EB /* StatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCardView.swift; sourceTree = "<group>"; };
+		F468735F2FE037A7005002EB /* StatCardsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCardsGrid.swift; sourceTree = "<group>"; };
+		F46873612FE037B0005002EB /* DeviceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCardView.swift; sourceTree = "<group>"; };
+		F46873632FE037BE005002EB /* DeviceCardGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCardGrid.swift; sourceTree = "<group>"; };
+		F46873672FE037FC005002EB /* EnergyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyChartView.swift; sourceTree = "<group>"; };
+		F468736A2FE0381D005002EB /* DevicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesListView.swift; sourceTree = "<group>"; };
+		F468736C2FE03828005002EB /* DevicesList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DevicesList-ViewModel.swift"; sourceTree = "<group>"; };
+		F468736F2FE0385C005002EB /* DeviceCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCreateView.swift; sourceTree = "<group>"; };
+		F46873712FE03866005002EB /* DeviceCreate-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceCreate-ViewModel.swift"; sourceTree = "<group>"; };
+		F46873732FE0423B005002EB /* DeviceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailsView.swift; sourceTree = "<group>"; };
+		F46873762FE04298005002EB /* RoomsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsListView.swift; sourceTree = "<group>"; };
+		F46873782FE042A3005002EB /* RoomsList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoomsList-ViewModel.swift"; sourceTree = "<group>"; };
+		F468737B2FE042BF005002EB /* RoomCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCreateView.swift; sourceTree = "<group>"; };
+		F468737D2FE042CB005002EB /* RoomCreate-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoomCreate-ViewModel.swift"; sourceTree = "<group>"; };
+		F468737F2FE042DC005002EB /* RoomDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailsView.swift; sourceTree = "<group>"; };
+		F46873822FE042F6005002EB /* ScenesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesListView.swift; sourceTree = "<group>"; };
+		F46873842FE04301005002EB /* ScenesList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScenesList-ViewModel.swift"; sourceTree = "<group>"; };
+		F46873892FE04323005002EB /* SceneCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCreateView.swift; sourceTree = "<group>"; };
+		F468738B2FE04330005002EB /* SceneCreate-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneCreate-ViewModel.swift"; sourceTree = "<group>"; };
+		F468738E2FE04357005002EB /* AutomationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationsListView.swift; sourceTree = "<group>"; };
+		F46873902FE04362005002EB /* AutomationsList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutomationsList-ViewModel.swift"; sourceTree = "<group>"; };
+		F46873932FE04380005002EB /* AutomationCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationCreateView.swift; sourceTree = "<group>"; };
+		F46873952FE0438E005002EB /* AutomationCreate-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutomationCreate-ViewModel.swift"; sourceTree = "<group>"; };
+		F46873972FE043C4005002EB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F46873992FE043D9005002EB /* DeviceToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceToggle.swift; sourceTree = "<group>"; };
+		F468739B2FE043EA005002EB /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		F468739D2FE043FB005002EB /* StatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadge.swift; sourceTree = "<group>"; };
+		F468739F2FE0443D005002EB /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		F46873A12FE0444C005002EB /* IconPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPicker.swift; sourceTree = "<group>"; };
+		F46873A32FE04465005002EB /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		F46873A52FE04477005002EB /* ModelContainerSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainerSetup.swift; sourceTree = "<group>"; };
+		F46873A72FE04497005002EB /* PreviewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewHelpers.swift; sourceTree = "<group>"; };
+		F46873A92FE044AD005002EB /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatting.swift"; sourceTree = "<group>"; };
+		F46873AB2FE044B8005002EB /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F468730A2FDD92B4005002EB /* smart-home-control */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "smart-home-control";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F46873052FDD92B4005002EB /* Frameworks */ = {
@@ -32,7 +123,8 @@
 		F46872FF2FDD92B4005002EB = {
 			isa = PBXGroup;
 			children = (
-				F468730A2FDD92B4005002EB /* smart-home-control */,
+				F4C5DC2D2FE2E7F90037A6C7 /* security_data */,
+				F468731C2FDEA479005002EB /* smart-home-control */,
 				F46873092FDD92B4005002EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +135,252 @@
 				F46873082FDD92B4005002EB /* smart-home-control.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F468731C2FDEA479005002EB /* smart-home-control */ = {
+			isa = PBXGroup;
+			children = (
+				F468731B2FDEA479005002EB /* smart_home_controlApp.swift */,
+				F46873192FDEA479005002EB /* ContentView.swift */,
+				F46873212FDEA481005002EB /* Utilities */,
+				F46873242FDEA4FA005002EB /* Components */,
+				F46873222FDEA4A8005002EB /* Views */,
+				F46873262FDEA52F005002EB /* Models */,
+				F46873252FDEA510005002EB /* Enums */,
+				F46873232FDEA4B7005002EB /* Extensions */,
+			);
+			path = "smart-home-control";
+			sourceTree = "<group>";
+		};
+		F46873212FDEA481005002EB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F46873182FDEA479005002EB /* Assets.xcassets */,
+				F46873A32FE04465005002EB /* SampleData.swift */,
+				F46873A52FE04477005002EB /* ModelContainerSetup.swift */,
+				F46873A72FE04497005002EB /* PreviewHelpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F46873222FDEA4A8005002EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F46873562FE03748005002EB /* MainTabView.swift */,
+				F46873272FDEA537005002EB /* Home */,
+				F46873282FDEA54E005002EB /* Devices */,
+				F46873292FDEA56A005002EB /* Rooms */,
+				F468732A2FDEA589005002EB /* Scenes */,
+				F468732B2FDEA5C4005002EB /* Automations */,
+				F468732C2FDEA5CA005002EB /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F46873232FDEA4B7005002EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F46873A92FE044AD005002EB /* Date+Formatting.swift */,
+				F46873AB2FE044B8005002EB /* Color+Theme.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F46873242FDEA4FA005002EB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F46873992FE043D9005002EB /* DeviceToggle.swift */,
+				F468739D2FE043FB005002EB /* StatusBadge.swift */,
+				F468739F2FE0443D005002EB /* SectionHeader.swift */,
+				F46873A12FE0444C005002EB /* IconPicker.swift */,
+				F468739B2FE043EA005002EB /* EmptyStateView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F46873252FDEA510005002EB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F46873522FE036C2005002EB /* DeviceType.swift */,
+				F46873542FE036D5005002EB /* TriggerType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		F46873262FDEA52F005002EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F46873462FE03682005002EB /* Device.swift */,
+				F46873482FE0368B005002EB /* Room.swift */,
+				F468734A2FE03694005002EB /* Scene.swift */,
+				F468734C2FE036A1005002EB /* SceneAction.swift */,
+				F468734E2FE036AB005002EB /* Automation.swift */,
+				F46873502FE036B7005002EB /* EnergyReading.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F46873272FDEA537005002EB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F468735C2FE03777005002EB /* HomeView */,
+				F46873652FE037C4005002EB /* StatCardView */,
+				F46873662FE037D1005002EB /* DeviceCardView */,
+				F46873672FE037FC005002EB /* EnergyChartView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F46873282FDEA54E005002EB /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				F468736E2FE03834005002EB /* DeviceCreateView.swift */,
+				F46873692FE0380E005002EB /* DevicesListView */,
+				F46873732FE0423B005002EB /* DeviceDetailsView.swift */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		F46873292FDEA56A005002EB /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				F468737A2FE042AC005002EB /* RoomCreateView */,
+				F46873752FE0424C005002EB /* RoomsListView */,
+				F468737F2FE042DC005002EB /* RoomDetailsView.swift */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		F468732A2FDEA589005002EB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F46873882FE04315005002EB /* SceneCreateView */,
+				F46873812FE042E9005002EB /* ScenesListView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F468732B2FDEA5C4005002EB /* Automations */ = {
+			isa = PBXGroup;
+			children = (
+				F46873922FE0436D005002EB /* AutomationCreateView */,
+				F468738D2FE04340005002EB /* AutomationsListView */,
+			);
+			path = Automations;
+			sourceTree = "<group>";
+		};
+		F468732C2FDEA5CA005002EB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F46873972FE043C4005002EB /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F468735C2FE03777005002EB /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				F46873582FE03761005002EB /* HomeView.swift */,
+				F468735A2FE0376C005002EB /* Home-ViewModel.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		F46873652FE037C4005002EB /* StatCardView */ = {
+			isa = PBXGroup;
+			children = (
+				F468735D2FE03792005002EB /* StatCardView.swift */,
+				F468735F2FE037A7005002EB /* StatCardsGrid.swift */,
+			);
+			path = StatCardView;
+			sourceTree = "<group>";
+		};
+		F46873662FE037D1005002EB /* DeviceCardView */ = {
+			isa = PBXGroup;
+			children = (
+				F46873612FE037B0005002EB /* DeviceCardView.swift */,
+				F46873632FE037BE005002EB /* DeviceCardGrid.swift */,
+			);
+			path = DeviceCardView;
+			sourceTree = "<group>";
+		};
+		F46873692FE0380E005002EB /* DevicesListView */ = {
+			isa = PBXGroup;
+			children = (
+				F468736A2FE0381D005002EB /* DevicesListView.swift */,
+				F468736C2FE03828005002EB /* DevicesList-ViewModel.swift */,
+			);
+			path = DevicesListView;
+			sourceTree = "<group>";
+		};
+		F468736E2FE03834005002EB /* DeviceCreateView.swift */ = {
+			isa = PBXGroup;
+			children = (
+				F468736F2FE0385C005002EB /* DeviceCreateView.swift */,
+				F46873712FE03866005002EB /* DeviceCreate-ViewModel.swift */,
+			);
+			path = DeviceCreateView.swift;
+			sourceTree = "<group>";
+		};
+		F46873752FE0424C005002EB /* RoomsListView */ = {
+			isa = PBXGroup;
+			children = (
+				F46873762FE04298005002EB /* RoomsListView.swift */,
+				F46873782FE042A3005002EB /* RoomsList-ViewModel.swift */,
+			);
+			path = RoomsListView;
+			sourceTree = "<group>";
+		};
+		F468737A2FE042AC005002EB /* RoomCreateView */ = {
+			isa = PBXGroup;
+			children = (
+				F468737B2FE042BF005002EB /* RoomCreateView.swift */,
+				F468737D2FE042CB005002EB /* RoomCreate-ViewModel.swift */,
+			);
+			path = RoomCreateView;
+			sourceTree = "<group>";
+		};
+		F46873812FE042E9005002EB /* ScenesListView */ = {
+			isa = PBXGroup;
+			children = (
+				F46873822FE042F6005002EB /* ScenesListView.swift */,
+				F46873842FE04301005002EB /* ScenesList-ViewModel.swift */,
+			);
+			path = ScenesListView;
+			sourceTree = "<group>";
+		};
+		F46873882FE04315005002EB /* SceneCreateView */ = {
+			isa = PBXGroup;
+			children = (
+				F46873892FE04323005002EB /* SceneCreateView.swift */,
+				F468738B2FE04330005002EB /* SceneCreate-ViewModel.swift */,
+			);
+			path = SceneCreateView;
+			sourceTree = "<group>";
+		};
+		F468738D2FE04340005002EB /* AutomationsListView */ = {
+			isa = PBXGroup;
+			children = (
+				F468738E2FE04357005002EB /* AutomationsListView.swift */,
+				F46873902FE04362005002EB /* AutomationsList-ViewModel.swift */,
+			);
+			path = AutomationsListView;
+			sourceTree = "<group>";
+		};
+		F46873922FE0436D005002EB /* AutomationCreateView */ = {
+			isa = PBXGroup;
+			children = (
+				F46873932FE04380005002EB /* AutomationCreateView.swift */,
+				F46873952FE0438E005002EB /* AutomationCreate-ViewModel.swift */,
+			);
+			path = AutomationCreateView;
+			sourceTree = "<group>";
+		};
+		F4C5DC2D2FE2E7F90037A6C7 /* security_data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = security_data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +397,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F468730A2FDD92B4005002EB /* smart-home-control */,
 			);
 			name = "smart-home-control";
 			packageProductDependencies = (
@@ -109,6 +444,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46873202FDEA479005002EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +455,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46873702FE0385C005002EB /* DeviceCreateView.swift in Sources */,
+				F468738F2FE04357005002EB /* AutomationsListView.swift in Sources */,
+				F46873A82FE04497005002EB /* PreviewHelpers.swift in Sources */,
+				F468739C2FE043EA005002EB /* EmptyStateView.swift in Sources */,
+				F468731D2FDEA479005002EB /* ContentView.swift in Sources */,
+				F468739A2FE043D9005002EB /* DeviceToggle.swift in Sources */,
+				F46873792FE042A3005002EB /* RoomsList-ViewModel.swift in Sources */,
+				F468736B2FE0381D005002EB /* DevicesListView.swift in Sources */,
+				F46873AC2FE044B8005002EB /* Color+Theme.swift in Sources */,
+				F468735E2FE03792005002EB /* StatCardView.swift in Sources */,
+				F46873592FE03761005002EB /* HomeView.swift in Sources */,
+				F46873852FE04301005002EB /* ScenesList-ViewModel.swift in Sources */,
+				F468738C2FE04330005002EB /* SceneCreate-ViewModel.swift in Sources */,
+				F468735B2FE0376C005002EB /* Home-ViewModel.swift in Sources */,
+				F468736D2FE03828005002EB /* DevicesList-ViewModel.swift in Sources */,
+				F46873832FE042F6005002EB /* ScenesListView.swift in Sources */,
+				F468739E2FE043FB005002EB /* StatusBadge.swift in Sources */,
+				F46873942FE04380005002EB /* AutomationCreateView.swift in Sources */,
+				F46873772FE04298005002EB /* RoomsListView.swift in Sources */,
+				F468734B2FE03694005002EB /* Scene.swift in Sources */,
+				F46873A42FE04465005002EB /* SampleData.swift in Sources */,
+				F46873982FE043C4005002EB /* ProfileView.swift in Sources */,
+				F468738A2FE04323005002EB /* SceneCreateView.swift in Sources */,
+				F46873A22FE0444C005002EB /* IconPicker.swift in Sources */,
+				F468737E2FE042CB005002EB /* RoomCreate-ViewModel.swift in Sources */,
+				F46873552FE036D5005002EB /* TriggerType.swift in Sources */,
+				F468731F2FDEA479005002EB /* smart_home_controlApp.swift in Sources */,
+				F46873742FE0423B005002EB /* DeviceDetailsView.swift in Sources */,
+				F46873512FE036B7005002EB /* EnergyReading.swift in Sources */,
+				F46873962FE0438E005002EB /* AutomationCreate-ViewModel.swift in Sources */,
+				F46873A62FE04477005002EB /* ModelContainerSetup.swift in Sources */,
+				F46873682FE037FC005002EB /* EnergyChartView.swift in Sources */,
+				F46873642FE037BE005002EB /* DeviceCardGrid.swift in Sources */,
+				F468734F2FE036AB005002EB /* Automation.swift in Sources */,
+				F46873472FE03682005002EB /* Device.swift in Sources */,
+				F46873722FE03866005002EB /* DeviceCreate-ViewModel.swift in Sources */,
+				F468734D2FE036A1005002EB /* SceneAction.swift in Sources */,
+				F46873492FE0368B005002EB /* Room.swift in Sources */,
+				F46873802FE042DC005002EB /* RoomDetailsView.swift in Sources */,
+				F468737C2FE042BF005002EB /* RoomCreateView.swift in Sources */,
+				F46873622FE037B0005002EB /* DeviceCardView.swift in Sources */,
+				F46873602FE037A7005002EB /* StatCardsGrid.swift in Sources */,
+				F46873A02FE0443D005002EB /* SectionHeader.swift in Sources */,
+				F46873532FE036C2005002EB /* DeviceType.swift in Sources */,
+				F46873912FE04362005002EB /* AutomationsList-ViewModel.swift in Sources */,
+				F46873572FE03748005002EB /* MainTabView.swift in Sources */,
+				F46873AA2FE044AD005002EB /* Date+Formatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
