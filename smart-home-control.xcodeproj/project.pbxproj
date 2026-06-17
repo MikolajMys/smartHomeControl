@@ -107,6 +107,7 @@
 		F46873A72FE04497005002EB /* PreviewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewHelpers.swift; sourceTree = "<group>"; };
 		F46873A92FE044AD005002EB /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatting.swift"; sourceTree = "<group>"; };
 		F46873AB2FE044B8005002EB /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
+		F4C5DC2E2FE2E8940037A6C7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 		F46872FF2FDD92B4005002EB = {
 			isa = PBXGroup;
 			children = (
+				F4C5DC2E2FE2E8940037A6C7 /* .gitignore */,
 				F4C5DC2D2FE2E7F90037A6C7 /* security_data */,
 				F468731C2FDEA479005002EB /* smart-home-control */,
 				F46873092FDD92B4005002EB /* Products */,
