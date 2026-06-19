@@ -6,13 +6,42 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct MainTabView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            Tab("Home", systemImage: "house.fill") {
+                NavigationStack {
+                    HomeView()
+                }
+            }
+            Tab("Rooms", systemImage: "square.grid.2x2") {
+                NavigationStack {
+                    RoomsListView()
+                }
+            }
+            Tab("Scenes", systemImage: "wand.and.stars") {
+                NavigationStack {
+                    SmartScenesListView()
+                }
+            }
+            Tab("Auto", systemImage: "bolt.fill") {
+                NavigationStack {
+                    AutomationsListView()
+                }
+            }
+            Tab("Profile", systemImage: "person.fill") {
+                NavigationStack {
+                    ProfileView()
+                }
+            }
+        }
+        .tint(Color.accentBlue)
     }
 }
 
 #Preview {
     MainTabView()
+        .modelContainer(.preview)
 }

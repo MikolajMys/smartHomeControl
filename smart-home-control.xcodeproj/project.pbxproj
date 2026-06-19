@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F468731D2FDEA479005002EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873192FDEA479005002EB /* ContentView.swift */; };
 		F468731F2FDEA479005002EB /* smart_home_controlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468731B2FDEA479005002EB /* smart_home_controlApp.swift */; };
 		F46873202FDEA479005002EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46873182FDEA479005002EB /* Assets.xcassets */; };
 		F46873472FE03682005002EB /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873462FE03682005002EB /* Device.swift */; };
 		F46873492FE0368B005002EB /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873482FE0368B005002EB /* Room.swift */; };
-		F468734B2FE03694005002EB /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468734A2FE03694005002EB /* Scene.swift */; };
+		F468734B2FE03694005002EB /* SmartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468734A2FE03694005002EB /* SmartScene.swift */; };
 		F468734D2FE036A1005002EB /* SceneAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468734C2FE036A1005002EB /* SceneAction.swift */; };
 		F468734F2FE036AB005002EB /* Automation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468734E2FE036AB005002EB /* Automation.swift */; };
 		F46873512FE036B7005002EB /* EnergyReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873502FE036B7005002EB /* EnergyReading.swift */; };
@@ -36,10 +35,10 @@
 		F468737C2FE042BF005002EB /* RoomCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468737B2FE042BF005002EB /* RoomCreateView.swift */; };
 		F468737E2FE042CB005002EB /* RoomCreate-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468737D2FE042CB005002EB /* RoomCreate-ViewModel.swift */; };
 		F46873802FE042DC005002EB /* RoomDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468737F2FE042DC005002EB /* RoomDetailsView.swift */; };
-		F46873832FE042F6005002EB /* ScenesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873822FE042F6005002EB /* ScenesListView.swift */; };
-		F46873852FE04301005002EB /* ScenesList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873842FE04301005002EB /* ScenesList-ViewModel.swift */; };
-		F468738A2FE04323005002EB /* SceneCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873892FE04323005002EB /* SceneCreateView.swift */; };
-		F468738C2FE04330005002EB /* SceneCreate-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468738B2FE04330005002EB /* SceneCreate-ViewModel.swift */; };
+		F46873832FE042F6005002EB /* SmartScenesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873822FE042F6005002EB /* SmartScenesListView.swift */; };
+		F46873852FE04301005002EB /* SmartScenesList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873842FE04301005002EB /* SmartScenesList-ViewModel.swift */; };
+		F468738A2FE04323005002EB /* SmartSceneCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873892FE04323005002EB /* SmartSceneCreateView.swift */; };
+		F468738C2FE04330005002EB /* SmartSceneCreate-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468738B2FE04330005002EB /* SmartSceneCreate-ViewModel.swift */; };
 		F468738F2FE04357005002EB /* AutomationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468738E2FE04357005002EB /* AutomationsListView.swift */; };
 		F46873912FE04362005002EB /* AutomationsList-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873902FE04362005002EB /* AutomationsList-ViewModel.swift */; };
 		F46873942FE04380005002EB /* AutomationCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873932FE04380005002EB /* AutomationCreateView.swift */; };
@@ -55,16 +54,19 @@
 		F46873A82FE04497005002EB /* PreviewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873A72FE04497005002EB /* PreviewHelpers.swift */; };
 		F46873AA2FE044AD005002EB /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873A92FE044AD005002EB /* Date+Formatting.swift */; };
 		F46873AC2FE044B8005002EB /* Color+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46873AB2FE044B8005002EB /* Color+Theme.swift */; };
+		F4C5DC3C2FE3119E0037A6C7 /* HomeAutomationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C5DC3B2FE3119E0037A6C7 /* HomeAutomationRowView.swift */; };
+		F4C5DC3E2FE311A60037A6C7 /* HomeSceneRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C5DC3D2FE311A60037A6C7 /* HomeSceneRowView.swift */; };
+		F4C5DC402FE311E60037A6C7 /* HomeSectionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C5DC3F2FE311E60037A6C7 /* HomeSectionEditorView.swift */; };
+		F4C5DC422FE32CE10037A6C7 /* SceneAutomationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C5DC412FE32CE10037A6C7 /* SceneAutomationAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F46873082FDD92B4005002EB /* smart-home-control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smart-home-control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46873182FDEA479005002EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F46873192FDEA479005002EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F468731B2FDEA479005002EB /* smart_home_controlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smart_home_controlApp.swift; sourceTree = "<group>"; };
 		F46873462FE03682005002EB /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		F46873482FE0368B005002EB /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
-		F468734A2FE03694005002EB /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		F468734A2FE03694005002EB /* SmartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartScene.swift; sourceTree = "<group>"; };
 		F468734C2FE036A1005002EB /* SceneAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneAction.swift; sourceTree = "<group>"; };
 		F468734E2FE036AB005002EB /* Automation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Automation.swift; sourceTree = "<group>"; };
 		F46873502FE036B7005002EB /* EnergyReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyReading.swift; sourceTree = "<group>"; };
@@ -88,10 +90,10 @@
 		F468737B2FE042BF005002EB /* RoomCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCreateView.swift; sourceTree = "<group>"; };
 		F468737D2FE042CB005002EB /* RoomCreate-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RoomCreate-ViewModel.swift"; sourceTree = "<group>"; };
 		F468737F2FE042DC005002EB /* RoomDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailsView.swift; sourceTree = "<group>"; };
-		F46873822FE042F6005002EB /* ScenesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesListView.swift; sourceTree = "<group>"; };
-		F46873842FE04301005002EB /* ScenesList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScenesList-ViewModel.swift"; sourceTree = "<group>"; };
-		F46873892FE04323005002EB /* SceneCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCreateView.swift; sourceTree = "<group>"; };
-		F468738B2FE04330005002EB /* SceneCreate-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneCreate-ViewModel.swift"; sourceTree = "<group>"; };
+		F46873822FE042F6005002EB /* SmartScenesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartScenesListView.swift; sourceTree = "<group>"; };
+		F46873842FE04301005002EB /* SmartScenesList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartScenesList-ViewModel.swift"; sourceTree = "<group>"; };
+		F46873892FE04323005002EB /* SmartSceneCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSceneCreateView.swift; sourceTree = "<group>"; };
+		F468738B2FE04330005002EB /* SmartSceneCreate-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SmartSceneCreate-ViewModel.swift"; sourceTree = "<group>"; };
 		F468738E2FE04357005002EB /* AutomationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationsListView.swift; sourceTree = "<group>"; };
 		F46873902FE04362005002EB /* AutomationsList-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AutomationsList-ViewModel.swift"; sourceTree = "<group>"; };
 		F46873932FE04380005002EB /* AutomationCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationCreateView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,10 @@
 		F46873A92FE044AD005002EB /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatting.swift"; sourceTree = "<group>"; };
 		F46873AB2FE044B8005002EB /* Color+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Theme.swift"; sourceTree = "<group>"; };
 		F4C5DC2E2FE2E8940037A6C7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F4C5DC3B2FE3119E0037A6C7 /* HomeAutomationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAutomationRowView.swift; sourceTree = "<group>"; };
+		F4C5DC3D2FE311A60037A6C7 /* HomeSceneRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSceneRowView.swift; sourceTree = "<group>"; };
+		F4C5DC3F2FE311E60037A6C7 /* HomeSectionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionEditorView.swift; sourceTree = "<group>"; };
+		F4C5DC412FE32CE10037A6C7 /* SceneAutomationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneAutomationAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				F468731B2FDEA479005002EB /* smart_home_controlApp.swift */,
-				F46873192FDEA479005002EB /* ContentView.swift */,
 				F46873212FDEA481005002EB /* Utilities */,
 				F46873242FDEA4FA005002EB /* Components */,
 				F46873222FDEA4A8005002EB /* Views */,
@@ -172,7 +177,7 @@
 				F46873272FDEA537005002EB /* Home */,
 				F46873282FDEA54E005002EB /* Devices */,
 				F46873292FDEA56A005002EB /* Rooms */,
-				F468732A2FDEA589005002EB /* Scenes */,
+				F468732A2FDEA589005002EB /* SmartScenes */,
 				F468732B2FDEA5C4005002EB /* Automations */,
 				F468732C2FDEA5CA005002EB /* Profile */,
 			);
@@ -212,9 +217,10 @@
 		F46873262FDEA52F005002EB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F4C5DC412FE32CE10037A6C7 /* SceneAutomationAction.swift */,
 				F46873462FE03682005002EB /* Device.swift */,
 				F46873482FE0368B005002EB /* Room.swift */,
-				F468734A2FE03694005002EB /* Scene.swift */,
+				F468734A2FE03694005002EB /* SmartScene.swift */,
 				F468734C2FE036A1005002EB /* SceneAction.swift */,
 				F468734E2FE036AB005002EB /* Automation.swift */,
 				F46873502FE036B7005002EB /* EnergyReading.swift */,
@@ -225,6 +231,8 @@
 		F46873272FDEA537005002EB /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F4C5DC3D2FE311A60037A6C7 /* HomeSceneRowView.swift */,
+				F4C5DC3B2FE3119E0037A6C7 /* HomeAutomationRowView.swift */,
 				F468735C2FE03777005002EB /* HomeView */,
 				F46873652FE037C4005002EB /* StatCardView */,
 				F46873662FE037D1005002EB /* DeviceCardView */,
@@ -253,13 +261,13 @@
 			path = Rooms;
 			sourceTree = "<group>";
 		};
-		F468732A2FDEA589005002EB /* Scenes */ = {
+		F468732A2FDEA589005002EB /* SmartScenes */ = {
 			isa = PBXGroup;
 			children = (
-				F46873882FE04315005002EB /* SceneCreateView */,
+				F46873882FE04315005002EB /* SmartSceneCreateView */,
 				F46873812FE042E9005002EB /* ScenesListView */,
 			);
-			path = Scenes;
+			path = SmartScenes;
 			sourceTree = "<group>";
 		};
 		F468732B2FDEA5C4005002EB /* Automations */ = {
@@ -282,6 +290,7 @@
 		F468735C2FE03777005002EB /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				F4C5DC3F2FE311E60037A6C7 /* HomeSectionEditorView.swift */,
 				F46873582FE03761005002EB /* HomeView.swift */,
 				F468735A2FE0376C005002EB /* Home-ViewModel.swift */,
 			);
@@ -345,19 +354,19 @@
 		F46873812FE042E9005002EB /* ScenesListView */ = {
 			isa = PBXGroup;
 			children = (
-				F46873822FE042F6005002EB /* ScenesListView.swift */,
-				F46873842FE04301005002EB /* ScenesList-ViewModel.swift */,
+				F46873822FE042F6005002EB /* SmartScenesListView.swift */,
+				F46873842FE04301005002EB /* SmartScenesList-ViewModel.swift */,
 			);
 			path = ScenesListView;
 			sourceTree = "<group>";
 		};
-		F46873882FE04315005002EB /* SceneCreateView */ = {
+		F46873882FE04315005002EB /* SmartSceneCreateView */ = {
 			isa = PBXGroup;
 			children = (
-				F46873892FE04323005002EB /* SceneCreateView.swift */,
-				F468738B2FE04330005002EB /* SceneCreate-ViewModel.swift */,
+				F46873892FE04323005002EB /* SmartSceneCreateView.swift */,
+				F468738B2FE04330005002EB /* SmartSceneCreate-ViewModel.swift */,
 			);
-			path = SceneCreateView;
+			path = SmartSceneCreateView;
 			sourceTree = "<group>";
 		};
 		F468738D2FE04340005002EB /* AutomationsListView */ = {
@@ -461,29 +470,31 @@
 				F468738F2FE04357005002EB /* AutomationsListView.swift in Sources */,
 				F46873A82FE04497005002EB /* PreviewHelpers.swift in Sources */,
 				F468739C2FE043EA005002EB /* EmptyStateView.swift in Sources */,
-				F468731D2FDEA479005002EB /* ContentView.swift in Sources */,
 				F468739A2FE043D9005002EB /* DeviceToggle.swift in Sources */,
 				F46873792FE042A3005002EB /* RoomsList-ViewModel.swift in Sources */,
 				F468736B2FE0381D005002EB /* DevicesListView.swift in Sources */,
 				F46873AC2FE044B8005002EB /* Color+Theme.swift in Sources */,
 				F468735E2FE03792005002EB /* StatCardView.swift in Sources */,
 				F46873592FE03761005002EB /* HomeView.swift in Sources */,
-				F46873852FE04301005002EB /* ScenesList-ViewModel.swift in Sources */,
-				F468738C2FE04330005002EB /* SceneCreate-ViewModel.swift in Sources */,
+				F46873852FE04301005002EB /* SmartScenesList-ViewModel.swift in Sources */,
+				F468738C2FE04330005002EB /* SmartSceneCreate-ViewModel.swift in Sources */,
 				F468735B2FE0376C005002EB /* Home-ViewModel.swift in Sources */,
 				F468736D2FE03828005002EB /* DevicesList-ViewModel.swift in Sources */,
-				F46873832FE042F6005002EB /* ScenesListView.swift in Sources */,
+				F46873832FE042F6005002EB /* SmartScenesListView.swift in Sources */,
+				F4C5DC3E2FE311A60037A6C7 /* HomeSceneRowView.swift in Sources */,
 				F468739E2FE043FB005002EB /* StatusBadge.swift in Sources */,
 				F46873942FE04380005002EB /* AutomationCreateView.swift in Sources */,
 				F46873772FE04298005002EB /* RoomsListView.swift in Sources */,
-				F468734B2FE03694005002EB /* Scene.swift in Sources */,
+				F468734B2FE03694005002EB /* SmartScene.swift in Sources */,
 				F46873A42FE04465005002EB /* SampleData.swift in Sources */,
+				F4C5DC422FE32CE10037A6C7 /* SceneAutomationAction.swift in Sources */,
 				F46873982FE043C4005002EB /* ProfileView.swift in Sources */,
-				F468738A2FE04323005002EB /* SceneCreateView.swift in Sources */,
+				F468738A2FE04323005002EB /* SmartSceneCreateView.swift in Sources */,
 				F46873A22FE0444C005002EB /* IconPicker.swift in Sources */,
 				F468737E2FE042CB005002EB /* RoomCreate-ViewModel.swift in Sources */,
 				F46873552FE036D5005002EB /* TriggerType.swift in Sources */,
 				F468731F2FDEA479005002EB /* smart_home_controlApp.swift in Sources */,
+				F4C5DC3C2FE3119E0037A6C7 /* HomeAutomationRowView.swift in Sources */,
 				F46873742FE0423B005002EB /* DeviceDetailsView.swift in Sources */,
 				F46873512FE036B7005002EB /* EnergyReading.swift in Sources */,
 				F46873962FE0438E005002EB /* AutomationCreate-ViewModel.swift in Sources */,
@@ -492,6 +503,7 @@
 				F46873642FE037BE005002EB /* DeviceCardGrid.swift in Sources */,
 				F468734F2FE036AB005002EB /* Automation.swift in Sources */,
 				F46873472FE03682005002EB /* Device.swift in Sources */,
+				F4C5DC402FE311E60037A6C7 /* HomeSectionEditorView.swift in Sources */,
 				F46873722FE03866005002EB /* DeviceCreate-ViewModel.swift in Sources */,
 				F468734D2FE036A1005002EB /* SceneAction.swift in Sources */,
 				F46873492FE0368B005002EB /* Room.swift in Sources */,

@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct DeviceCardGrid: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    let devices: [Device]
 
-#Preview {
-    DeviceCardGrid()
+    private let columns = [GridItem(.flexible()), GridItem(.flexible())]
+
+    var body: some View {
+        LazyVGrid(columns: columns, spacing: 12) {
+            ForEach(devices) { device in
+                DeviceCardView(device: device)
+            }
+        }
+    }
 }

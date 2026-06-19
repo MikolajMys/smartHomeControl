@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import SwiftData
+
+extension RoomsListView {
+    @Observable
+    class ViewModel {
+        var context: ModelContext?
+
+        func deleteRoom(_ room: Room) {
+            context?.delete(room)
+            try? context?.save()
+        }
+    }
+}

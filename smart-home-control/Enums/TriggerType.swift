@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+enum TriggerType: String, Codable {
+    case time
+    case temperature
+    case humidity
+    case deviceState
+    case manual
+}
